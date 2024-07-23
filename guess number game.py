@@ -21,7 +21,7 @@ def correct_2(c):
         print('Number Is Bigger')
     elif (c == 3):
         print('Number Is Lower')     
-number = randint (0 , 5)
+number = randint (0 , 100)
 user_input = int(input('Enter Number: '))
 c = correct(user_input , number)
 correct_2(c)
